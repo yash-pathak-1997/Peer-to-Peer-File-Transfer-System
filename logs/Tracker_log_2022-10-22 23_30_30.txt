@@ -1,0 +1,26 @@
+2022-10-22 23:30:30	Tracker socket is created
+2022-10-22 23:30:30	Tracker is now listening at 127.0.0.1:48000 ...
+2022-10-22 23:30:37	Connection Accepted
+2022-10-22 23:30:37	Thread started for a new Client. The socket number is : 4
+2022-10-22 23:30:52	Connection Accepted
+2022-10-22 23:30:52	Thread started for a new Client. The socket number is : 5
+2022-10-22 23:31:09	Connection Accepted
+2022-10-22 23:31:09	Thread started for a new Client. The socket number is : 6
+2022-10-22 23:31:15	Client command : create_user u1 p1
+2022-10-22 23:31:21	Client command : create_user u2 p2
+2022-10-22 23:31:28	Client command : create_user u3 p3
+2022-10-22 23:31:32	Client command : login u3 p3
+2022-10-22 23:31:32	Client : ( 127.0.0.1:15000 ) is logged in with user : u3
+2022-10-22 23:31:36	Client command : login u1 p1
+2022-10-22 23:31:36	Client : ( 127.0.0.1:25000 ) is logged in with user : u1
+2022-10-22 23:31:39	Client command : login u2 p2
+2022-10-22 23:31:39	Client : ( 127.0.0.1:35000 ) is logged in with user : u2
+2022-10-22 23:31:44	Client command : create_group g1
+2022-10-22 23:31:49	Client command : join_group g1
+2022-10-22 23:31:55	Client command : join_group g1
+2022-10-22 23:32:02	Client command : accept_request g1 u2
+2022-10-22 23:32:09	Client command : accept_request g1 u3
+2022-10-22 23:32:29	Client command : upload_file /home/yash/AOStest/pdf_file.pdf g1
+2022-10-22 23:32:41	Client command : upload_file /home/yash/AOStest/pdf_file.pdf g1
+2022-10-22 23:33:12	Client command : download_file g1 pdf_file.pdf /home/yash
+2022-10-22 23:33:12	Recieved file info for download : pdf_file.pdf|/home/yash|g1

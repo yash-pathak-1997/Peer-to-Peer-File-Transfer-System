@@ -1,0 +1,76 @@
+2022-10-22 23:30:37	Connected to tracker : 127.0.0.1:48000
+2022-10-22 23:30:37	(As server) Client socket creation successful!
+2022-10-22 23:30:37	(As server) Setsockopt is successful!
+2022-10-22 23:30:37	(As server) Binding completed!
+2022-10-22 23:30:37	(As server) Client is listening...
+2022-10-22 23:31:15	New Account is created
+2022-10-22 23:31:15	New Account is created
+2022-10-22 23:31:21	New Account is created
+2022-10-22 23:31:21	New Account is created
+2022-10-22 23:31:28	New Account is created
+2022-10-22 23:31:28	New Account is created
+2022-10-22 23:31:32	Login is successful
+2022-10-22 23:31:55	Group request sent
+2022-10-22 23:31:55	Group request sent
+2022-10-22 23:33:12	Downloading ....
+2022-10-22 23:33:12	Sending file details for download to tracker : pdf_file.pdf|/home/yash|g1
+2022-10-22 23:33:12	127.0.0.1:25000|127.0.0.1:35000|713999
+2022-10-22 23:33:12	Starting Piecewise Algorithm for file transfer ....
+2022-10-22 23:33:12	Getting Piece info of : pdf_file.pdf from 127.0.0.1:35000
+2022-10-22 23:33:12	Socket Created in peerConnection
+2022-10-22 23:33:12	Needs to connect to 127.0.0.1:35000
+2022-10-22 23:33:12	Getting Piece info of : pdf_file.pdf from 127.0.0.1:25000
+2022-10-22 23:33:12	Connected to peer 127.0.0.1:35000
+2022-10-22 23:33:12	Socket Created in peerConnection
+2022-10-22 23:33:12	Command is sent to peer : get_piece_list|pdf_file.pdf
+2022-10-22 23:33:12	Needs to connect to 127.0.0.1:25000
+2022-10-22 23:33:12	Connected to peer 127.0.0.1:25000
+2022-10-22 23:33:12	Command is sent to peer : get_piece_list|pdf_file.pdf
+2022-10-22 23:33:12	Got Reply : 111
+2022-10-22 23:33:12	Got Reply : 111
+2022-10-22 23:33:12	Getting piece no 0 out of total 2
+2022-10-22 23:33:12	Random piece : 0
+2022-10-22 23:33:12	Random peer : 127.0.0.1:35000
+2022-10-22 23:33:12	Starting thread for Piece number : 0
+2022-10-22 23:33:12	Getting piece no 1 out of total 2
+2022-10-22 23:33:12	Random piece : 0
+2022-10-22 23:33:12	Random piece : 0
+2022-10-22 23:33:12	Random piece : 0
+2022-10-22 23:33:12	Random piece : 0
+2022-10-22 23:33:12	Random piece : 0
+2022-10-22 23:33:12	Random piece : 0
+2022-10-22 23:33:12	Random piece : 1
+2022-10-22 23:33:12	Random peer : 127.0.0.1:35000
+2022-10-22 23:33:12	Starting thread for Piece number : 1
+2022-10-22 23:33:12	Piece fetching details : pdf_file.pdf 127.0.0.1:35000 1
+2022-10-22 23:33:12	Socket Created in peerConnection
+2022-10-22 23:33:12	Needs to connect to 127.0.0.1:35000
+2022-10-22 23:33:12	Connected to peer 127.0.0.1:35000
+2022-10-22 23:33:12	Task is sent to peer : get_piece|pdf_file.pdf|1|/home/yash/pdf_file.pdf
+2022-10-22 23:33:12	Getting piece 1 from 35000
+2022-10-22 23:33:12	Piece fetching details : pdf_file.pdf 127.0.0.1:35000 0
+2022-10-22 23:33:12	Socket Created in peerConnection
+2022-10-22 23:33:12	Needs to connect to 127.0.0.1:35000
+2022-10-22 23:33:12	Connected to peer 127.0.0.1:35000
+2022-10-22 23:33:12	Task is sent to peer : get_piece|pdf_file.pdf|0|/home/yash/pdf_file.pdf
+2022-10-22 23:33:12	Getting piece 0 from 35000
+2022-10-22 23:33:12	Piece written from : 524288
+2022-10-22 23:33:12	Piece written till : 589823
+2022-10-22 23:33:12	Piece written from : 589824
+2022-10-22 23:33:12	Piece written till : 655359
+2022-10-22 23:33:12	Piece written from : 655360
+2022-10-22 23:33:12	Piece written till : 713997
+2022-10-22 23:33:12	Piece vector is updated for - pdf_file.pdf at 1
+2022-10-22 23:33:12	Piece written from : 0
+2022-10-22 23:33:12	Piece written till : 65535
+2022-10-22 23:33:12	Piece written from : 65536
+2022-10-22 23:33:12	Piece written till : 131071
+2022-10-22 23:33:12	Piece written from : 131072
+2022-10-22 23:33:12	Piece written till : 524287
+2022-10-22 23:33:12	Piece vector is updated for - pdf_file.pdf at 0
+2022-10-22 23:33:12	Download of the file is complete!
+2022-10-22 23:33:12	Socket Created in peerConnection
+2022-10-22 23:33:12	Needs to connect to 127.0.0.1:35000
+2022-10-22 23:33:12	Connected to peer 127.0.0.1:35000
+2022-10-22 23:33:12	Server reply for get file path : /home/yash/AOStest/pdf_file.pdf
+2022-10-22 23:33:12	Terminating connection with -127.0.0.1:35000
